@@ -14,5 +14,5 @@ array.forEach(number => {
     };
 });
 
-document.getElementById("pari").innerHTML = `<h1 style="color: green;">I numeri pari sono: ${pari}</h1>`;
-document.getElementById("dispari").innerHTML = `<h1 style="color: red;">I numeri dispari sono: ${dispari}</h1>`;
+document.getElementById("pari").innerHTML = `<h1 class="green";">I numeri pari sono: ${pari}</h1>`;
+document.getElementById("dispari").innerHTML = `<h1 class="red";">I numeri dispari sono: ${dispari}</h1>`;

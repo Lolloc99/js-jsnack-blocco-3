@@ -6,7 +6,7 @@ const array = [];
 let sum = 0;
 
 while (sum < 50) {
-    let num = parseInt(prompt("Inserisci un numero"));
+    const num = parseInt(prompt("Inserisci un numero"));
 
     if ((sum + num) < 50) {
         array.push(num)
